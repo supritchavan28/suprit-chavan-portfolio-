@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import { Github, Linkedin, Mail, Menu, X, ExternalLink, ArrowUpRight, FileDown } from "lucide-react";
+import { Github, Linkedin, Mail,phone, Menu, X, ExternalLink, ArrowUpRight, FileDown } from "lucide-react";
 
 /* ------------------------------------------------------------------ */
 /* Data — every fact below comes from the resume details, GitHub bio  */
@@ -17,10 +17,11 @@ const NAV_LINKS = [
 ];
 
 const SKILLS = {
-  Frontend: ["React.js", "JavaScript (ES6+)", "HTML5", "CSS3", "Tailwind CSS", "Bootstrap", "Responsive Design", "Accessibility"],
-  Backend: ["Node.js", "Express.js", "REST APIs", "Authentication"],
+  Frontend: ["React.js", "JavaScript (ES6+)", "HTML5", "CSS3", "Tailwind CSS", "Responsive Design", "Accessibility"],
+  Backend: ["Node.js", "Express.js", "REACT.js", "ANGULAR.js"],
   Database: ["MySQL", "MongoDB"],
   Tools: ["Git", "GitHub", "VS Code"],
+  AI Tools:["claude","blackbox ai","chatgpt","openai codex","figmaAI",],
 };
 
 const EXPERIENCE = [
@@ -98,6 +99,7 @@ const PROJECTS = [
 const GITHUB_URL = "https://github.com/supritchavan28";
 const LINKEDIN_URL = "https://www.linkedin.com/in/suprit-chavan-0302961a7/";
 const EMAIL = "supritchavan028@gmail.com";
+const PHONENO = "+91 7666769158";
 
 const TERMINAL_LINES = [
   { prompt: "suprit@dev:~$ ", text: "whoami" },
