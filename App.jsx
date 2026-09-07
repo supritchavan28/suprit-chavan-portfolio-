@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import { Github, Linkedin, Mail,phone, Menu, X, ExternalLink, ArrowUpRight, FileDown } from "lucide-react";
+import { Github, Linkedin, Mail, phone, Menu, X, ExternalLink, ArrowUpRight, FileDown } from "lucide-react";
 
 /* ------------------------------------------------------------------ */
 /* Data — every fact below comes from the resume details, GitHub bio  */
@@ -650,6 +650,9 @@ function Contact() {
           <a href={`mailto:${EMAIL}`} className="flex items-center gap-3 font-body text-secondary hover:text-primary">
             <Mail size={18} /> {EMAIL}
           </a>
+         <a href={PHONE_TEL} className="flex items-center gap-3 font-body text-secondary hover:text-primary">
+  <Phone size={18} /> {PHONE}
+</a> 
           <a href={LINKEDIN_URL} target="_blank" rel="noreferrer" className="flex items-center gap-3 font-body text-secondary hover:text-primary">
             <Linkedin size={18} /> linkedin.com/in/suprit-chavan
           </a>
