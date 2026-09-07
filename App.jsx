@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import { Github, Linkedin, Mail, phone, Menu, X, ExternalLink, ArrowUpRight, FileDown } from "lucide-react";
+import { Github, Linkedin, Mail, Phone, Menu, X, ExternalLink, ArrowUpRight, FileDown } from "lucide-react";
 
 /* ------------------------------------------------------------------ */
 /* Data — every fact below comes from the resume details, GitHub bio  */
