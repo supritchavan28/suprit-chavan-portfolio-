@@ -17,11 +17,12 @@ const NAV_LINKS = [
 ];
 
 const SKILLS = {
-  Frontend: ["React.js", "JavaScript (ES6+)", "HTML5", "CSS3", "Tailwind CSS", "Responsive Design", "Accessibility"],
-  Backend: ["Node.js", "Express.js", "REACT.js", "ANGULAR.js"],
+ const SKILLS = {
+  Frontend: ["React.js", "Angular.js", "JavaScript (ES6+)", "HTML5", "CSS3", "Tailwind CSS", "Bootstrap", "Responsive Design", "Accessibility"],
+  Backend: ["Node.js", "Express.js", "REST APIs", "Authentication"],
   Database: ["MySQL", "MongoDB"],
   Tools: ["Git", "GitHub", "VS Code"],
-  AI Tools:["claude","blackbox ai","chatgpt","openai codex","figmaAI",],
+  "AI Tools": ["Claude", "ChatGPT", "OpenAI Codex", "Blackbox AI", "Figma AI"],
 };
 
 const EXPERIENCE = [
